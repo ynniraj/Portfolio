@@ -178,7 +178,9 @@ img {
 .nav__logo {
   color: var(--second-color);
 }
-
+.nav__logo img {
+  width: 26%;
+}
 .nav__toggle {
   color: var(--second-color);
   font-size: 1.5rem;
@@ -560,6 +562,9 @@ img {
   .home {
     row-gap: 2rem;
   }
+  .nav__logo img {
+    width: 20%;
+  }
 
   .home__title {
     margin-bottom: 0;
@@ -672,6 +677,9 @@ img {
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
+  }
+  .nav__logo img {
+    width: 26%;
   }
   .section {
     padding-top: 4rem;
@@ -805,8 +813,11 @@ img {
   .dynamic-txts li span::after {
     margin-top: 20px;
   }
+  .nav__logo img {
+    width: 74%;
+  }
   .home__img {
-    margin-top: 16px;
+    margin-top: 100px;
   }
   .about-wrapper {
     text-align: center;
@@ -827,6 +838,9 @@ img {
 @media screen and (max-width: 550px) {
   .wrapper {
     margin-top: -20px;
+  }
+  .nav__logo img {
+    width: 20%;
   }
 
   .dynamic-txts li {
@@ -868,6 +882,10 @@ img {
   .dynamic-txts li {
     font-size: 28px;
   }
+  .nav__logo img {
+    width: 20%;
+  }
+
   .home__title {
     font-size: 26px;
   }
