@@ -824,9 +824,49 @@ img {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .wrapper {
+    margin-top: -20px;
+  }
+
+  .dynamic-txts li {
+    font-size: 33px;
+  }
+  .home__img {
+    width: 300px;
+    bottom: 10%;
+  }
+  .about__container {
+    padding-top: 2rem;
+  }
+  .about__img img {
+    width: 300px;
+  }
+  .dynamic-txts li span::after {
+    margin-top: 20px;
+  }
+  .home__img {
+    margin-top: 240px;
+  }
+  .about-wrapper {
+    text-align: center;
+    margin: auto;
+    width: 83%;
+  }
+  .work__container {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .work_div {
+    width: 100%;
+  }
+  .education_container {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .dynamic-txts li {
-    font-size: 23px;
+    font-size: 28px;
   }
   .home__title {
     font-size: 26px;
